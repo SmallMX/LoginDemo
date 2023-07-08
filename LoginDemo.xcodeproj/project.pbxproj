@@ -17,6 +17,10 @@
 		EED1CC112A592352007503E4 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = EED1CC102A592352007503E4 /* RxRelay */; };
 		EED1CC132A592352007503E4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EED1CC122A592352007503E4 /* RxSwift */; };
 		EED1CC152A5923E9007503E4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1CC142A5923E9007503E4 /* LoginViewController.swift */; };
+		EED1CC172A5938AC007503E4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1CC162A5938AC007503E4 /* LoginViewModel.swift */; };
+		EED1CC192A5938D8007503E4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1CC182A5938D8007503E4 /* UserModel.swift */; };
+		EED1CC1B2A59390A007503E4 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1CC1A2A59390A007503E4 /* StringExtensions.swift */; };
+		EED1CC1D2A593927007503E4 /* PasswordLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1CC1C2A593927007503E4 /* PasswordLevel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		EED1CC032A5921A3007503E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED1CC052A5921A3007503E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EED1CC142A5923E9007503E4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EED1CC162A5938AC007503E4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		EED1CC182A5938D8007503E4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EED1CC1A2A59390A007503E4 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		EED1CC1C2A593927007503E4 /* PasswordLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,10 @@
 				EED1CBF72A5921A2007503E4 /* AppDelegate.swift */,
 				EED1CBF92A5921A2007503E4 /* SceneDelegate.swift */,
 				EED1CC142A5923E9007503E4 /* LoginViewController.swift */,
+				EED1CC162A5938AC007503E4 /* LoginViewModel.swift */,
+				EED1CC182A5938D8007503E4 /* UserModel.swift */,
+				EED1CC1A2A59390A007503E4 /* StringExtensions.swift */,
+				EED1CC1C2A593927007503E4 /* PasswordLevel.swift */,
 				EED1CBFD2A5921A2007503E4 /* Main.storyboard */,
 				EED1CC002A5921A3007503E4 /* Assets.xcassets */,
 				EED1CC022A5921A3007503E4 /* LaunchScreen.storyboard */,
@@ -155,8 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED1CC1B2A59390A007503E4 /* StringExtensions.swift in Sources */,
+				EED1CC1D2A593927007503E4 /* PasswordLevel.swift in Sources */,
+				EED1CC172A5938AC007503E4 /* LoginViewModel.swift in Sources */,
 				EED1CC152A5923E9007503E4 /* LoginViewController.swift in Sources */,
 				EED1CBF82A5921A2007503E4 /* AppDelegate.swift in Sources */,
+				EED1CC192A5938D8007503E4 /* UserModel.swift in Sources */,
 				EED1CBFA2A5921A2007503E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
