@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Password Strength"; ObjectID = "4A4-60-Zj1"; */
+"4A4-60-Zj1.text" = "密码强度";
+
+/* Class = "UIViewController"; title = "Login"; ObjectID = "HZj-VC-7IV"; */
+"HZj-VC-7IV.title" = "登陆";
+
+/* Class = "UILabel"; text = "The password is too weak."; ObjectID = "JKm-6N-DSA"; */
+"JKm-6N-DSA.text" = "密码太简单了";
+
+/* Class = "UILabel"; text = "Account"; ObjectID = "Wgu-JO-Z4o"; */
+"Wgu-JO-Z4o.text" = "账号";
+
+/* Class = "UILabel"; text = "Please enter a valid email address."; ObjectID = "c12-zB-QqK"; */
+"c12-zB-QqK.text" = "请输入正确邮箱地址";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "dDU-f9-8pl"; */
+"dDU-f9-8pl.text" = "欢迎";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "g58-qj-4gy"; */
+"g58-qj-4gy.text" = "密码";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "hnb-hK-eCj"; */
+"hnb-hK-eCj.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "mZ7-3h-64X"; */
+"mZ7-3h-64X.configuration.title" = "登陆";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "mZ7-3h-64X"; */
+"mZ7-3h-64X.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "qGi-kS-U7B"; */
+"qGi-kS-U7B.text" = "Label";

@@ -21,6 +21,7 @@
 		EED1CC192A5938D8007503E4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1CC182A5938D8007503E4 /* UserModel.swift */; };
 		EED1CC1B2A59390A007503E4 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1CC1A2A59390A007503E4 /* StringExtensions.swift */; };
 		EED1CC1D2A593927007503E4 /* PasswordLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1CC1C2A593927007503E4 /* PasswordLevel.swift */; };
+		EED1CC212A593F58007503E4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED1CC202A593F58007503E4 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,9 @@
 		EED1CC182A5938D8007503E4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		EED1CC1A2A59390A007503E4 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 		EED1CC1C2A593927007503E4 /* PasswordLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordLevel.swift; sourceTree = "<group>"; };
+		EED1CC202A593F58007503E4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EED1CC222A594073007503E4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		EED1CC232A594073007503E4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				EED1CC182A5938D8007503E4 /* UserModel.swift */,
 				EED1CC1A2A59390A007503E4 /* StringExtensions.swift */,
 				EED1CC1C2A593927007503E4 /* PasswordLevel.swift */,
+				EED1CC202A593F58007503E4 /* WelcomeViewController.swift */,
 				EED1CBFD2A5921A2007503E4 /* Main.storyboard */,
 				EED1CC002A5921A3007503E4 /* Assets.xcassets */,
 				EED1CC022A5921A3007503E4 /* LaunchScreen.storyboard */,
@@ -135,6 +140,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = EED1CBEB2A5921A2007503E4;
 			packageReferences = (
@@ -168,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EED1CC1B2A59390A007503E4 /* StringExtensions.swift in Sources */,
+				EED1CC212A593F58007503E4 /* WelcomeViewController.swift in Sources */,
 				EED1CC1D2A593927007503E4 /* PasswordLevel.swift in Sources */,
 				EED1CC172A5938AC007503E4 /* LoginViewModel.swift in Sources */,
 				EED1CC152A5923E9007503E4 /* LoginViewController.swift in Sources */,
@@ -184,6 +191,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EED1CBFE2A5921A2007503E4 /* Base */,
+				EED1CC222A594073007503E4 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -192,6 +200,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EED1CC032A5921A3007503E4 /* Base */,
+				EED1CC232A594073007503E4 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -203,6 +212,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -263,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

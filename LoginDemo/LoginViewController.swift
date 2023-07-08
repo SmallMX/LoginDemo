@@ -68,7 +68,10 @@ class LoginViewController: UIViewController {
     }
     
     func loginSuccess(user: User) {
-        print("account:\(user.account)    password\(user.password)")
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "welcome") as! WelcomeViewController
+        vc.user = user
+        self.present(vc, animated: true)
     }
 
 }

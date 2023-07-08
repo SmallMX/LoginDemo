@@ -5,13 +5,43 @@
 //  Created by MingXin Liu on 2023/7/8.
 //
 
-import Foundation
+import UIKit
 
 enum PasswordLevel {
     case weak, average, strong, secure
     
+    var title: String {
+        switch self {
+        case .weak:
+            return "weak"
+        case .average:
+            return "average"
+        case .strong:
+            return "strong"
+        case .secure:
+            return "secure"
+        }
+    }
+    
+    var color: UIColor {
+        switch self {
+        case .weak:
+            return .gray
+        case .average:
+            return .red
+        case .strong:
+            return .green
+        case .secure:
+            return .green
+        }
+    }
+    
     static func calculatePasswordLevel(password: String) -> PasswordLevel {
         let score = calculateScore(password: password)
+        return calculatePasswordLevel(password: password, score: score)
+    }
+    
+    static func calculatePasswordLevel(password: String, score: Int) -> PasswordLevel {
         let level: PasswordLevel
         if score >= 80 {
             level = .secure
@@ -25,7 +55,7 @@ enum PasswordLevel {
         return level
     }
     
-    static private func calculateScore(password: String) -> Int {
+    static func calculateScore(password: String) -> Int {
         let count = password.count
         guard count > 5 else {
             return 0
