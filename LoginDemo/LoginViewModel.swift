@@ -16,14 +16,11 @@ class LoginViewModel {
     let loading = PublishSubject<Bool>()
     
     func requestLogin(account: String, password: String) {
-
         loading.onNext(true)
         DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             self.loading.onNext(false)
             self.loginSuccess.onNext(User(account: account, password: password))
         }
-
-        
     }
     
 }
